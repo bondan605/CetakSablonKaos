@@ -219,3 +219,18 @@ ul a span:hover{
 .text:hover{
   color: white;
 }
+.card-images {
+  position: relative;
+  display: inline-block;
+  
+}
+.card-images .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card-images:hover .img-top {
+  display: inline;
+}
