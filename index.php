@@ -54,7 +54,7 @@
     <nav class="black">
       <div class="container">
       <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo"><img src="img/vector.svg" alt="Treezn Screen Printing logo" height="25px"></a>
+        <a href="index.php" class="brand-logo"><img src="img/vector.svg" alt="Treezn Screen Printing logo" height="25px"></a>
         <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="index.php">Home</a></li>
