@@ -57,7 +57,7 @@
         <a href="index.html" class="brand-logo"><img src="img/vector.svg" alt="Treezn Screen Printing logo" height="25px"></a>
         <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="service.html">Services</a></li>
           <li><a href="client.html">Clients</a></li>
@@ -72,7 +72,7 @@
   </div>
      <!--side nav  -->
      <ul class="sidenav" id="mobile-nav">
-           <li><a href="index.html">Home</a></li>
+           <li><a href="index.php">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="service.html">Services</a></li>
           <li><a href="client.html">Clients</a></li>
