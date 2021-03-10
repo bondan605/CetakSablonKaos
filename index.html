@@ -206,7 +206,7 @@
            </div>
            <div class="col m7 s12">
              <h4 class="sent-notification"></h4>
-             <form id="myForm">
+             <form id="myForm" method="post" action="sendEmail.php">
               <div class="card-panel">
                 <h5>Please fill out this form</h5>
                 <div class="input-field">
@@ -225,7 +225,7 @@
                   <textarea id="body" class="materialize-textarea"></textarea>
                   <label for="message">Message</label>
                 </div>
-                <button type="button" onclick="sendEmail()" class="btn blue darken-2">Send</button>
+                <button type="submit" onclick="sendEmail()" class="btn blue darken-2">Send</button>
               </div>             
              </form>
            </div>          
