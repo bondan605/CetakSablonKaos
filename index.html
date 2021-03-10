@@ -187,6 +187,51 @@
           </div>
         </div>
       </section>
+    
+           <section class="contact grey lighten-3 ">
+       <div class="container">
+         <h3 class="light center grey-text text-darken-3">Contact Us</h3>
+         <div class="row">
+           <div class="col m5 s12">
+             <div class="card-panel blue darken-2 center white-text">
+               <i class="material-icons">email</i>
+               <h5>Contact</h5>
+             </div>
+             <ul class="collection with-header">
+              <li class="collection-header center"><h4>Our Office</h4></li>
+              <li class="collection-item">TREEZN SCREEN PRINTING</li>
+              <li class="collection-item">Jl.Diponegoro, Rt.4, Rw.4, Jogoloyo, Kec.Wonosalam</li>
+              <li class="collection-item">Kabupaten Demak, Jawa Tengah 59571</li>                             
+             </ul>
+           </div>
+           <div class="col m7 s12">
+             <h4 class="sent-notification"></h4>
+             <form id="myForm">
+              <div class="card-panel">
+                <h5>Please fill out this form</h5>
+                <div class="input-field">
+                  <input type="text" id="name" required class="validate">
+                  <label for="name">Name</label>
+                </div>
+                <div class="input-field">
+                  <input type="email" id="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" id="subject">
+                  <label for="phone">Phone Number</label>
+                </div>
+                <div class="input-field">
+                  <textarea id="body" class="materialize-textarea"></textarea>
+                  <label for="message">Message</label>
+                </div>
+                <button type="submit" onclick="sendEmail()" class="btn blue darken-2">Send</button>
+              </div>             
+             </form>
+           </div>          
+         </div>
+       </div>
+    </section>
 
 
 
@@ -278,6 +323,44 @@ function showSlides() {
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 </script>
+    
+
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+        function sendEmail() {
+            var name = $("#name");
+            var email = $("#email");
+            var subject = $("#subject");
+            var body = $("#body");
+
+            if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
+                $.ajax({
+                   url: 'sendEmail.php',
+                   method: 'POST',
+                   dataType: 'json',
+                   data: {
+                       name: name.val(),
+                       email: email.val(),
+                       subject: subject.val(),
+                       body: body.val()
+                   }, success: function (response) {
+                        $('#myForm')[0].reset();
+                        $('.sent-notification').text("Message Sent Successfully.");
+                   }
+                });
+            }
+        }
+
+        function isNotEmpty(caller) {
+            if (caller.val() == "") {
+                caller.css('border', '1px solid red');
+                return false;
+            } else
+                caller.css('border', '');
+
+            return true;
+        }
+    </script>
 
   </body>
 </html>
