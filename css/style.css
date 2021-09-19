@@ -65,7 +65,7 @@ ul a span:hover{
 }
 
 .slideshow-container {
-  max-width: 1200px;
+  width:100%;
   position: relative;
   margin: auto;
 }
