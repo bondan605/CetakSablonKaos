@@ -47,8 +47,8 @@ a:hover{
   .clients img{
     padding:15px 0;
   }
-  .mySlides img{
-	height:229px;
+  .mySlides fade img{
+	height: 229px;
 }
 }
 footer{
