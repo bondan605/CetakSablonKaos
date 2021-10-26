@@ -197,3 +197,14 @@ ul a span:hover{
 .card-images:hover .img-top {
   display: inline;
 }
+.fixedButton{
+            position: fixed;
+            bottom: 0px;
+            right: 0px; 
+            padding: 20px;
+        }
+        .roundedFixedBtn img{  
+          cursor: pointer;
+          width: 75px;
+        }
+
