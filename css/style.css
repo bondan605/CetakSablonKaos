@@ -47,6 +47,9 @@ a:hover{
   .clients img{
     padding:15px 0;
   }
+  .roundedFixedBtn img{ 
+          width: 30px;
+        }
 }
 footer{
 	padding: 10px;
