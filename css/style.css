@@ -208,14 +208,11 @@ ul a span:hover{
           width: 60px;
         }
 
-
+.col m3 s12{
+margin-bottom:10px;
+}
 @media screen and (min-width: 600px){
 .marbot{
   margin-bottom: 20px;
-}
-}
-@media screen and (max-width: 1000px){
-.col m3 s12{
-margin-bottom: 10px;
 }
 }
