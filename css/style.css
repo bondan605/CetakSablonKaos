@@ -208,7 +208,9 @@ ul a span:hover{
           width: 60px;
         }
 
+
+@media screen and (min-width: 600px){
 .marbot{
   margin-bottom: 20px;
 }
-
+}
