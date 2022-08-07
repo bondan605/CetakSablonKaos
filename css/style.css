@@ -214,7 +214,7 @@ ul a span:hover{
   margin-bottom: 20px;
 }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 1000px){
 .col m3 s12{
 margin-bottom: 10px;
 }
