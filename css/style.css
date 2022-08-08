@@ -34,8 +34,10 @@ a:hover{
 }
 .mySlides img{
 	vertical-align: middle;
-	border-radius:50px;
-	margin:60px;
+	border-radius:50%;
+	padding-top:30px;
+	padding-right:30px;
+	padding-left:30px;
 }
 
 .clients img {
