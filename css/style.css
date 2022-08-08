@@ -214,3 +214,8 @@ ul a span:hover{
   margin-bottom: 20px;
 }
 }
+@media screen and (max-width: 450px){
+.marbotom{
+  margin-bottom: 15px;
+}
+}
