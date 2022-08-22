@@ -217,7 +217,7 @@ ul a span:hover{
 .marbot{
   margin-bottom: 20px;
 }
-.responsive-image{
+.card-image{
   width: 100%;
   height: 549px;
 }	
@@ -226,7 +226,7 @@ ul a span:hover{
 .marbotom{
   margin-bottom: 15px;
 }
-.responsive-image{
+.card-image{
   width: 100%;
 }
 .container-fl{
