@@ -218,8 +218,8 @@ ul a span:hover{
   margin-bottom: 20px;
 }
 .card-image{
-  width: 290px;
-  height: 549px;
+  width: 100%;
+  height: 594px;
 }	
 }
 @media screen and (max-width: 450px){
