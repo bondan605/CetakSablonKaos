@@ -217,9 +217,21 @@ ul a span:hover{
 .marbot{
   margin-bottom: 20px;
 }
+.responsive-image{
+  width: 100%;
+  height: 549px;
+}	
 }
 @media screen and (max-width: 450px){
 .marbotom{
   margin-bottom: 15px;
+}
+.responsive-image{
+  width: 100%;
+}
+.container-fl{
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 }
