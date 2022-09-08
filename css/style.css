@@ -23,7 +23,7 @@ section{
     
 }
 a:hover{
-	color: #cc0066;
+	color: #cc0066 !important;
 }
 .dropdown-content{
 	color:white !important;
