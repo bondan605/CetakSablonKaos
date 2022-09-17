@@ -22,11 +22,11 @@ section{
 .parallax-container {
     
 }
-a:hover{
+ul li a:hover{
 	color: #cc0066;
 }
 .dropdown-content{
-	color:white !important;
+	color: white;
 }
 .parallax img {
     filter: grayscale(1);
