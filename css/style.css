@@ -217,6 +217,12 @@ ul a span:hover{
 .card-image{
 	width: 50%;
 }
+.contact{
+	margin-bottom:30px;
+}
+.contact a{
+	margin-top:30px;
+}
 
 
 @media screen and (min-width: 600px){
