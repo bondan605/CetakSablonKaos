@@ -215,8 +215,7 @@ ul a span:hover{
           width: 60px;
         }
 .card-image{
-	width: 315px;
-  height: 560px;
+	width: 100%;
 }
 
 
