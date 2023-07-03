@@ -215,7 +215,8 @@ ul a span:hover{
           width: 60px;
         }
 .card-image{
-	width: 50%;
+	width: 315px;
+  height: 560px;
 }
 
 
@@ -225,7 +226,8 @@ ul a span:hover{
   margin-bottom: 20px;
 }
 .card-image{
-  width: 100%;
+  width: 315px;
+  height: 560px;
 }	
 }
 @media screen and (max-width: 450px){
@@ -233,7 +235,8 @@ ul a span:hover{
   margin-bottom: 15px;
 }
 .card-image{
-  width: 100%;
+  width: 315px;
+  height: 560px;
 }
 .container-fl{
   width: 100%;
