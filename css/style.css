@@ -224,18 +224,11 @@ ul a span:hover{
 @media screen and (min-width: 600px){
 .marbot{
   margin-bottom: 20px;
-}
-.card-image{
-  width: 100%;
 }	
 }
 @media screen and (max-width: 450px){
 .marbotom{
   margin-bottom: 15px;
-}
-.card-image{
-  width: 315px;
-  height: 560px;
 }
 .container-fl{
   width: 100%;
