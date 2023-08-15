@@ -1,3 +1,10 @@
+nav .brand-logo img{
+	width: 84px;
+	height: 46px !important;
+}
+nav .brand-logo{
+	margin-top:10px;
+}
 .slider	h3,
 .slider h5{
 	color: white;
