@@ -201,6 +201,9 @@ p.lead {
 ul li a:hover {
   color: orange;
 }
+ul li a:active{
+  color: orange;
+}
 .dropdown-content {
   color: white;
 }
